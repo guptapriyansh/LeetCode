@@ -7,11 +7,11 @@ Problem URL: https://leetcode.com/problems/two-sum/
 class Solution {
 public:
     vector<int> twoSum(vector<int>& nums, int target) {
-        unordered_map<int, int> numMap;
-        for (int i = 0; i < nums.size(); i++) 
+        unordered_map<int, int> map;
+        for (int index = 0; index < nums.size(); index++) 
         {
-            if (numMap.count(target - nums[i])) return {numMap[target - nums[i]], i};
-            numMap[nums[i]] = i;
+            if (map.count(target - nums[index])) return {map[target - nums[index]], index};
+            map[nums[index]] = index;
         }
         return {};
     }
