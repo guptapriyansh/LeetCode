@@ -1,7 +1,7 @@
 /*
 Author: Priyansh Gupta
 Date: Oct 19, 2023
-Problem URL: https://leetcode.com/problems/longest-palindromic-substring/
+Problem URL: https://leetcode.com/problems/container-with-most-water/
 */
 
 class Solution {
